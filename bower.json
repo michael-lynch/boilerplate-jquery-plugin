@@ -1,0 +1,24 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "homepage": "",
+  "authors": [
+    "Michael Lynch <mikethomaslynch@gmail.com>"
+  ],
+  "description": "",
+  "main": "dist/.min.js",
+  "keywords": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
