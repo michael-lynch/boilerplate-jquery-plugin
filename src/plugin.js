@@ -23,8 +23,8 @@ Licensed under the MIT license
 		// define default parameters
         var defaults = {
             propertyName: 'value',
-            error: function(message) {},
-            success: function() {}
+            success: function() {},
+            error: function() {}
         }
         
         // define plugin
@@ -47,7 +47,10 @@ Licensed under the MIT license
         });
         
         // run success callback function
-        plugin.settings.success.call(this);
+        s.success.call(this);
+        
+        // run error callback function
+        s.error.call(this);
         
         plugin.publicMethod = function() {
             // do something
